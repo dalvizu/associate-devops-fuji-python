@@ -1,6 +1,11 @@
+from typing import List
+from .git_commit import GitCommit
+
 
 class App:
-
+    def __init__(self):
+        pass
+        
     """
     Your assignment is to write a method which returns a list of JIRA
     tickets (as String). This will be used as a library in a bigger flow:
@@ -9,7 +14,7 @@ class App:
 
     Implement me!!!
     """
-    def get_jira_tickets(self, git_commits):
+    def get_jira_tickets(self, git_commits: List[GitCommit]) -> List[str]:
         """
 
         Return a list of JIRA tickets present in the provided gitCommits
