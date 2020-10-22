@@ -18,8 +18,8 @@ commit 55c0bb88b6e4f096574991dd9217bcf8c745d05e
 Author: Example User <example@pingidentity.com>
 Date:   Mon May 4 17:09:19 2015 -0600
 
-    SSD-101 super duper
-    Fix tomcat issue with using forks over spoons. feature
+    SSD-101 super duper feature
+    Fix tomcat issue with using forks over spoons.
 ```
 
 These git commits will be provided as a `GitCommit` object by another program.
