@@ -1,16 +1,14 @@
+import datetime
+import fuji
 from fuji import App
-
+from fuji import GitCommit
 app = App()
 
-ticket = """
-commit 55c0bb88b6e4f096574991dd9217bcf8c745d05e
-Author: Example User <example@pingidentity.com>
-Date:   Mon May 4 17:09:19 2015 -0600
-
-    SSD-101 super duper feature
-    Fix tomcat issue with using forks over spoons.
-"""
-
-
 # I should print ['SSD-101']
-print(app.get_jira_tickets([ticket]))
+if __name__ == '__main__':
+
+    ticket = GitCommit("7bdf804ae1e659a19a499f21a1551f00dbc7f868",
+                       "Dan Alvizu <dalvizu@pingidentity.com>",
+                       "SSD-101 I made a ticket!",
+                       datetime.datetime.now())
+    print(app.get_jira_tickets([ticket]))
