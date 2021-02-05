@@ -41,7 +41,8 @@ like and structure this any way you like. Be prepared to discuss your reasoning 
 
 ## Submitting:
 
-To submit your answer, open a merge request, or simply zip up the archive and send them back to your Ping contact.
+To submit your answer, create a private repo and send this your Ping Identity contact. Do not open a merge request,
+as we've discovered they can't be deleted without deleting the whole repository.
 
 ## Required Tools
 
